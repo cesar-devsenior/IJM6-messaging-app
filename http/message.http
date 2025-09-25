@@ -1,0 +1,13 @@
+###
+GET http://localhost:8080/api/messages/srivera/nbravo
+
+### 
+POST http://localhost:8080/api/messages
+Content-Type: application/json
+
+{
+    "senderId": "srivera",
+    "receiverId": "nbravo",
+    "content": "Buena noche, como estas?",
+    "type": "text"
+}

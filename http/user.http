@@ -1,0 +1,35 @@
+###
+GET http://localhost:8080/api/users
+
+### Crear un estudiante
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+    "username": "jhernandez",
+    "password": "jhernandez123",
+    "fullName": "Juan Hernandez",
+    "email": "jhernandez@rmail.com",
+    "phone": "3215553333",
+    "intereses": ["Programacion", "Baile", "Baloncesto"],
+    "profile": "Student",
+    "school": "Universidad de la Salle",
+    "program": "Ingenieria de Sistemas"
+}
+
+### Crear un empleado
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+    "username": "srivera",
+    "password": "srivera123",
+    "fullName": "Samuel Rivera",
+    "email": "srivera@email.com",
+    "phone": "3215551111",
+    "intereses": ["Programacion", "Caminar", "Literatura", "Chisme"],
+    "profile": "Employee",
+    "company": "Google Inc",
+    "position": "Java Developer",
+    "seniority": "Senior"
+}
